@@ -65,6 +65,7 @@ function dayName(dayNumber) {
 //   countVowels("Hello World") -> 3
 // ---------------------------------------------------------------------
 function countVowels(text) {
+let SumVowels = 0;
 
     switch(text) {
         case "a": SumVowels += 1;
