@@ -139,16 +139,13 @@ function isPalindrome(word) {
         if(front != back) {
             return false;
         }
-        else {
-            return true;
-        }
-
         a++;
         z++;
     }
+    return true;
+    }
 
 
-}
 
 
 // ---------------------------------------------------------------------
