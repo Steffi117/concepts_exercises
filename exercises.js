@@ -157,7 +157,9 @@ function isPalindrome(word) {
 function buildTriangle(height) {
     let string = "";
     for(let r = 1; r <= height; r++) {
-        for(let i = 0; i<r; i++) 
+        for(let i = 0; i<r; i++) {
+            sting =string + "*";
+        }
     }
     }
 
