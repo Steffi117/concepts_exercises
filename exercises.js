@@ -113,7 +113,7 @@ function fizzBuzz(n) {
             string = string +"Buzz";
         }
         else {
-            string = string + 1;
+            string = string + i;
         }
     }
 
