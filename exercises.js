@@ -95,6 +95,13 @@ for(let i = 0; i<text.length; i++) {
 //   fizzBuzz(5) -> "1, 2, Fizz, 4, Buzz"
 // ---------------------------------------------------------------------
 function fizzBuzz(n) {
+    let sting = "";
+    for (let i = 1; i<=n; i++) {
+
+        if(i<1){
+            string += ",";
+        }
+    }
 }
 
 
