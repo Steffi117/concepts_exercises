@@ -158,7 +158,7 @@ function buildTriangle(height) {
     let string = "";
     for(let r = 1; r <= height; r++) {
         for(let i = 0; i<r; i++) {
-            sting =string + "*";
+            string =string + "*";
         }
         if(r>height) {
             string = string + "\n";
