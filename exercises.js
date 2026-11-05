@@ -101,11 +101,11 @@ function fizzBuzz(n) {
     let string = "";
     for (let i = 1; i<=n; i++) {
 
-        if(i>1){
+        if(i>1) {
             string += ",";
         }
 
-        if(i%3 === 0 & i%5 === 0) {
+        if(i%3 === 0 && i%5 === 0) {
             string = string +"FizzBuzz";
         }
         else if(i%3 === 0) {
