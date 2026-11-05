@@ -130,7 +130,12 @@ function fizzBuzz(n) {
 // ---------------------------------------------------------------------
 function isPalindrome(word) {
     let a = 0;
-    let z = word-1;
+    let z = word - 1;
+
+    while(a < word.length) {
+        let front = word[a];
+        let back = word{z};
+    }
 }
 
 
