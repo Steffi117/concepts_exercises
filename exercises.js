@@ -68,7 +68,7 @@ function countVowels(text) {
 let SumVowels = 0;
 
 for(let i = 0; i<text.length; i++) {
-    switch(text) {
+    switch(text[i]) {
         case "a": SumVowels += 1;
         case "e": SumVowels += 1;
         case "i": SumVowels += 1;
