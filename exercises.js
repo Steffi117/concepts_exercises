@@ -96,6 +96,8 @@ for(let i = 0; i<text.length; i++) {
 // ---------------------------------------------------------------------
 function fizzBuzz(n) {
 
+     if(n<1) {return "";}
+
     let string = "";
     for (let i = 1; i<=n; i++) {
 
@@ -118,7 +120,6 @@ function fizzBuzz(n) {
     }
     return string;
 
-    if(n<1) {return "";}
 }
 
 
