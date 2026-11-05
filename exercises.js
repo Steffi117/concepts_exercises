@@ -69,16 +69,17 @@ let SumVowels = 0;
 
 for(let i = 0; i<text.length; i++) {
     switch(text[i]) {
-        case "a": SumVowels += 1;
-        case "e": SumVowels += 1;
-        case "i": SumVowels += 1;
-        case "o": SumVowels += 1;
-        case "u": SumVowels += 1;
-        case "A": SumVowels += 1;
-        case "E": SumVowels += 1;
-        case "I": SumVowels += 1;
-        case "O": SumVowels += 1;
-        case "U": SumVowels += 1;
+        case "a": 
+        case "e": 
+        case "i": 
+        case "o": 
+        case "u": 
+        case "A": 
+        case "E": 
+        case "I": 
+        case "O": 
+        case "U": 
+            SumVowels += 1;
         break;
     }
     }
