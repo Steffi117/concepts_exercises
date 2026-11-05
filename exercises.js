@@ -117,6 +117,8 @@ function fizzBuzz(n) {
         }
     }
     return string;
+
+    if(n<1) {return "";}
 }
 
 
