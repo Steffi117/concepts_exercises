@@ -144,7 +144,7 @@ function isPalindrome(word) {
         z++;
     }
 
-    retrun true;
+    return true;
 }
 
 
