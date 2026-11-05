@@ -160,9 +160,9 @@ function buildTriangle(height) {
         for(let i = 0; i<r; i++) {
             sting =string + "*";
         }
-        if(r>height) [
+        if(r>height) {
             string = string + "\n";
-        ]
+        }
     }
     return string;
     }
