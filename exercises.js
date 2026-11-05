@@ -107,7 +107,7 @@ function fizzBuzz(n) {
             string = string +"FizzBuzz";
         }
         else if(i%3 === 0) {
-            string = string +"Fixx";
+            string = string +"Fizz";
         }
         else if(i%5 === 0) {
             string = string +"Buzz";
