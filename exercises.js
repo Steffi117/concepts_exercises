@@ -119,9 +119,7 @@ function fizzBuzz(n) {
         }
     }
     return string;
-
 }
-
 
 // ---------------------------------------------------------------------
 // Exercise 5: isPalindrome
@@ -131,6 +129,8 @@ function fizzBuzz(n) {
 //   isPalindrome("level") -> true
 // ---------------------------------------------------------------------
 function isPalindrome(word) {
+    let a = 0;
+    let z = word-1;
 }
 
 
