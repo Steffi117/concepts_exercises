@@ -73,6 +73,11 @@ let SumVowels = 0;
         case "i": SumVowels += 1;
         case "o": SumVowels +=1;
         case "u": SumVowels +=1;
+        case "A": SumVowels += 1;
+        case "E": SumVowels += 1;
+        case "I": SumVowels += 1;
+        case "O": SumVowels +=1;
+        case "U": SumVowels +=1;
         break;
     }
     return SumVowels;
