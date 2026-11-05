@@ -65,6 +65,16 @@ function dayName(dayNumber) {
 //   countVowels("Hello World") -> 3
 // ---------------------------------------------------------------------
 function countVowels(text) {
+
+    switch(text) {
+        case "a": SumVowels += 1;
+        case "e": SumVowels += 1;
+        case "i": SumVowels += 1;
+        case "o": SumVowels +=1;
+        case "u": SumVowels +=1;
+        break;
+    }
+    return SumVowels;
 }
 
 
