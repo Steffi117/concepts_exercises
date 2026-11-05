@@ -135,6 +135,12 @@ function isPalindrome(word) {
     while(a < word.length) {
         let front = word[a];
         let back = word[z];
+
+        if(front ! = back) {
+            return false;
+        }
+
+        a++;
     }
 }
 
