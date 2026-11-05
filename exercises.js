@@ -103,11 +103,13 @@ function fizzBuzz(n) {
             string += ",";
         }
 
-        if(i%3 === 0) {
-            string = string +"Fizz";
+        if(i%3 === 0 & i%5 === 0) {
+            string = string +"FizzBuzz";
         }
-
-        if(i%5 === 0) {
+         else if(i%3 === 0) {
+            string = string +"Fixx";
+        }
+        else if(i%5 === 0) {
             string = string +"Buzz";
         }
     }
