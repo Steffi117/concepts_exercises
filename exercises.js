@@ -140,13 +140,10 @@ function isPalindrome(word) {
             return false;
         }
         a++;
-        z++;
+        z--;
     }
     return true;
     }
-
-
-
 
 // ---------------------------------------------------------------------
 // Exercise 6: buildTriangle
