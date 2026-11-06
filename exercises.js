@@ -219,6 +219,32 @@ else if (points >=0)
 //       5 Insufficient
 // ---------------------------------------------------------------------
 function gradeReport(student) {
+    var result;
+
+    switch(pointsToGrade(student.points)){
+        case 1: 
+            result = "Excellent";
+            break;
+        case 2:
+            result = "Good";
+            break;
+        case 3:
+            result = "Satisfactory";
+            break;
+        case 4: 
+            result = "Sufficient";
+            break;
+        case 5: 
+            result = "Insufficient";
+            break;
+        default:
+            result = "None";
+            break;
+    }
+
+    result = student.name + +": " + pointsToGrade(student.points) + "(" + result + ")";
+    
+    return result;
 }
 
 
