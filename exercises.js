@@ -179,7 +179,7 @@ function countWeekendDays(dayNumbers) {
 let count = 0;
 
 for(let i = 0; i < dayNumbers.length; i++) {
-    if(dayName(dayNumbers[i]) === "Saturday"
+    if(dayName(dayNumbers[i]) === "Saturday" ||
         dayName(dayNumbers[i]) === "Sunday")
 
         {count++;}
