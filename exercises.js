@@ -197,6 +197,16 @@ return count;
 //   pointsToGrade(85) -> 2
 // ---------------------------------------------------------------------
 function pointsToGrade(points) {
+if(points >= 90)
+    {return 1;}
+else if (points >=80)
+    {return 2;}
+else if (points >=70)
+    {return 3;}
+else if (points >=50)
+    {return 4;}
+else if (points >=0)
+    {return 5;}
 }
 
 
