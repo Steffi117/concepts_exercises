@@ -237,12 +237,9 @@ function gradeReport(student) {
         case 5: 
             result = "Insufficient";
             break;
-        default:
-            result = "None";
-            break;
     }
 
-    result = student.name + +": " + pointsToGrade(student.points) + "(" + result + ")";
+    result = student.name + ": " + pointsToGrade(student.points) + " (" + result + ")";
     
     return result;
 }
