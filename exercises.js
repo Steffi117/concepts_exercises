@@ -366,6 +366,13 @@ function isPrime(n) {
 //   primesUpTo(10) -> [2, 3, 5, 7]
 // ---------------------------------------------------------------------
 function primesUpTo(n) {
+    let primes = [];
+    for(let i = 2; i <= n; i++) {
+        if(isPrime(i)) {
+            primes.push(i);
+        }
+    }
+    return primes;
 }
 
 
