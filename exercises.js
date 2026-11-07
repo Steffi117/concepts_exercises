@@ -391,8 +391,9 @@ function wordStatistics(sentence) {
     let wordCount = 0;
     let longestWord = "";
     
-    for(let i = 0; i <= sentence.length; i++) {
-        if (i < sentence.length && sentence[i] != " ") {
+    for (let i = 0; i <= sentence.length; i++) {
+        
+        if (i < sentence.length && sentence[i] !== " ") {
             word = word + sentence[i];
         }
 
